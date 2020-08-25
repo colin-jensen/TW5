@@ -143,6 +143,8 @@ Error message and password prompt
 
 <li>$:/config/NewJournal/Title</li>
 
+<li>$:/config/RelinkOnRename</li>
+
 <li>$:/core</li>
 
 <li>$:/DefaultTiddlers</li>
@@ -157,6 +159,8 @@ Error message and password prompt
 
 <li>$:/isEncrypted</li>
 
+<li>$:/palette</li>
+
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
@@ -164,6 +168,8 @@ Error message and password prompt
 <li>$:/state/showeditpreview</li>
 
 <li>$:/state/sidebar</li>
+
+<li>$:/state/tab--1963855381</li>
 
 <li>$:/state/tab-1749438307</li>
 
@@ -183,9 +189,13 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
+<li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
+
 <li>8/24/2020</li>
 
-<li>Draft of 'New Tiddler'</li>
+<li>8/25/2020</li>
+
+<li>Draft of '8/25/2020'</li>
 
 <li>Home</li>
 
@@ -205,6 +215,9 @@ Error message and password prompt
 <div id="storeArea" style="display:none;">
 <div created="20200822195519782" modified="20200822195525054" title="$:/config/NewJournal/Title">
 <pre>MM/DD/YYYY</pre>
+</div>
+<div created="20200825033255939" modified="20200825033255939" title="$:/config/RelinkOnRename">
+<pre>yes</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.22">
 <pre>{
@@ -9598,6 +9611,9 @@ Error message and password prompt
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
+<div created="20200825033735144" modified="20200825033735144" title="$:/palette">
+<pre>$:/palettes/Nord</pre>
+</div>
 <div created="20200822195303119" modified="20200822195303119" title="$:/SiteSubtitle">
 <pre></pre>
 </div>
@@ -9610,8 +9626,11 @@ Error message and password prompt
 <div created="20200822200218837" modified="20200824163722506" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20200822195308084" modified="20200822195508239" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div created="20200825033314595" modified="20200825033732634" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Palette</pre>
+</div>
+<div created="20200822195308084" modified="20200825033312843" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20200822195310526" modified="20200822195310526" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
@@ -9622,7 +9641,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div list="[[Draft of 'New Tiddler']] 8/24/2020 Home" title="$:/StoryList">
+<div created="20200825033310733" list="[[Draft of '8/25/2020']] 8/24/2020 Home" modified="20200825033730130" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9795,6 +9814,9 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20200825033316977" modified="20200825033316977" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
+<pre>fluid-fixed</pre>
+</div>
 <div created="20200822195539154" modified="20200825033210125" tags="[[Lesson Plan]]" title="8/24/2020">
 <pre>Zoom Day.
 
@@ -9808,10 +9830,28 @@ Error message and password prompt
 ** Have them get started on the activity. Emphasize the card sorting question.
 ** If there's time left over, ask for syllabus questions?</pre>
 </div>
-<div created="20200825033142282" draft.of="New Tiddler" draft.title="8/25/2020" modified="20200825033202624" tags="[[Lesson Plan]]" title="Draft of 'New Tiddler'">
+<div created="20200825033142282" modified="20200825033213262" tags="[[Lesson Plan]]" title="8/25/2020">
 <pre></pre>
 </div>
-<div created="20200824163735082" modified="20200824211246550" tags="" title="Home">
+<div created="20200825033142282" draft.of="8/25/2020" draft.title="8/25-26/2020" modified="20200825151525297" tags="[[Lesson Plan]]" title="Draft of '8/25/2020'">
+<pre>
+
+* Explain in common, non-technical, language what it means to say a function is continuous at a point.		
+** f is cts @ c if the values of f(x) get closer to f(c) when x approaches c	
+* Explain in common, non-technical, language what it means to say that a function y = f(x) has a limit L as x approaches a. 		
+** lim x-&gt;c f(x) = L means the values of f(x)
+* Approximate limits numerically and graphically				
+* Give graphical examples of functions that 
+**are not continuous at a point x=a, but do have a limit as x approaches a;
+**are not continuous at a point x=a, but are defined at the point x = a; 
+**are not continuous at a point x=a, but have both a left-hand and a right-hand limit as x approaches a. 
+**If it is not possible to give such an example, explain why				
+*Explain why a table showing (exact) values of a function y = f(x) for x values close to a cannot conclusively establish the value of the limit of the function as x approaches a. 
+*Explain the Intermediate Value Theorem graphically. 				
+*Use the Intermediate Value Theorem to explain why a given function must take on certain values and why certain equations must have solutions.
+</pre>
+</div>
+<div created="20200824163735082" modified="20200825151912083" tags="" title="Home">
 <pre>Zoom host key for 160 meetings: 534970
 link: https://zoom.us/j/99379838103?pwd=NU1NUGJlWXdZcFBaTldmUFA4M1Zodz09
 
@@ -9819,7 +9859,19 @@ Zoom host key for tutoring: 697509
 
 link: https://zoom.us/j/99968215181?pwd=V2pWQjV1N3E1N0tHeEVwNjBkU0JEQT09
 
-registration:  https://tinyurl.com/CalculusCenterFA20  </pre>
+registration:  https://tinyurl.com/CalculusCenterFA20  
+
+&lt;&lt;list-tagged-draggable tag:&quot;task&quot; subFilter:&quot;!has[draft.of]!tag[done]&quot; itemTemplate:&quot;TaskManagementExampleDraggableTemplate&quot; emptyMessage:&quot;You don't have any active tasks&quot;&gt;&gt;
+
+! Completed tasks
+
+//(Listed in reverse order of completion)//
+
+&lt;$list filter=&quot;[!has[draft.of]tag[task]tag[done]sort[created]]&quot;&gt;
+&lt;div&gt;
+&lt;$checkbox tag=&quot;done&quot;&gt; ~~&lt;$link/&gt;~~&lt;/$checkbox&gt;
+&lt;/div&gt;
+&lt;/$list&gt;</pre>
 </div>
 
 
